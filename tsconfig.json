@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "esnext", //es6及以后
+    "useDefineForClassFields": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "strict": true, //开启所有的严格模式
+    "jsx": "preserve", //TypeScript附带三种JSX模式：preserve, react 和 react-native。 这些模式仅影响编译阶段 - 类型检查不受影响。 preserve模式将保持JSX作为输出的一部分，以便由另一个变换步骤（例如Babel）进一步编译。
+    "sourceMap": true, //是否生成sourceMap 它会生成一个 xxx.map 文件，里面包含源代码和构建后代码每一行、每一列的映射关系。当构建后代码出错了，会通过 xxx.map 文件，从构建后代码出错位置找到映射后源代码出错位置，从而让浏览器提示源代码文件出错位置，帮助我们更快的找到错误根源
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "lib": [ //指定代码运行时所包含的库（宿主环境）
+      "esnext",
+      "dom"
+    ]
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.d.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue"
+  ] //定义希望被编译的文件
+}

@@ -1,0 +1,37 @@
+{
+  "name": "newblog",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "@lucky-canvas/vue": "latest",
+    "@types/crypto-js": "^4.1.1",
+    "animate.css": "^4.1.1",
+    "axios": "^0.27.2",
+    "crypto-js": "^4.1.1",
+    "echarts": "^5.3.3",
+    "element-plus": "^1.2.0-beta.2",
+    "less": "^4.1.2",
+    "less-loader": "^10.2.0",
+    "pinia": "^2.0.15",
+    "view-ui-plus": "^1.2.0",
+    "vue": "^3.2.16",
+    "vue-router": "^4.0.12",
+    "vuex": "^3.6.2"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.41",
+    "@typescript-eslint/parser": "^5.29.0",
+    "@vitejs/plugin-vue": "^1.9.3",
+    "sass": "^1.54.0",
+    "sass-loader": "^13.0.2",
+    "typescript": "^4.4.3",
+    "unplugin-vue-components": "^0.17.2",
+    "vite": "^2.6.14",
+    "vue-tsc": "^0.3.0",
+    "vue3-lazy": "^1.0.0-alpha.1"
+  }
+}
